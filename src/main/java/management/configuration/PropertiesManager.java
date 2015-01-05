@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 public final class PropertiesManager
 {
     private static PropertiesManager propManager = null;
-    private static String initFilePath = "/home/panos/NetBeansProjects/diachron/integration_layer_config.properties";
+    private static String initFilePath = "./integration_layer_config.properties";
     private static Properties prop;
     
     public static PropertiesManager getPropertiesManager()
